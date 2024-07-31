@@ -1,0 +1,19 @@
+.softIdea{
+    margin-top: 10px;
+    border-radius: 150px;
+  /* padding: 5px; */
+  /* background-color: #f8f9fa; */
+  background {
+    background-image: url('../assets/hero-bg@2x.jpg');
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    color:white
+  }
+}
+
+.manwithLaptop{
+    @media (max-width: 575px) {
+        display: none;
+      }
+}

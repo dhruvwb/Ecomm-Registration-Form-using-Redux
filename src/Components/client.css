@@ -1,0 +1,21 @@
+img{
+    @media (max-width: 575px) {
+        margin: 5px;
+        display: flex;
+        /* align-items: center; */
+      }
+}
+
+.clientRow{
+  @media (max-width: 575px) {
+    display: flex;
+    /* justify-content: start; */
+    /* text-align: left; */
+    /* padding: 2px; */
+    /* border: 2px solid green; */
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+}

@@ -1,0 +1,24 @@
+.FooterLogo{
+    @media (max-width: 575px) {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        /* margin: 3px; */
+   
+        /* display: none; */
+      }
+}
+
+.advantalFooterLogo{
+    @media (max-width: 575px) {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+}
+}
+.social{
+    @media (max-width: 575px) {
+        margin-top: 10px;
+    }
+}

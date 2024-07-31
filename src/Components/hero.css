@@ -1,0 +1,50 @@
+.hero-section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    @media (max-width: 575px) {
+      height: 150px;
+    }
+    
+  }
+
+  .background {
+    background-image: url('../assets/hero-bg@2x.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+    @media (max-width: 575px) {
+      height: 40rem;
+    }
+  }
+  
+  .heroP{
+    @media (max-width: 575px) {
+      margin-top: 120px;
+    }
+  }
+
+  .ratings-section {
+    padding: 50px 0;
+  }
+
+  .imageHero{
+    height: 34rem;
+    object-fit: cover;
+    border-radius: 10px;
+    @media (max-width: 575px) {
+      display: none;
+    }
+  }

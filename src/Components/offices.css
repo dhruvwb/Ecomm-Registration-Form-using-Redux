@@ -1,0 +1,43 @@
+.offices-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .office-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .office-card.card-body {
+    padding: 20px;
+  }
+  
+  .office-card.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .office-card.card-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .office-card.card-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .office-card img {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+  }
